@@ -7,13 +7,12 @@ use Illuminate\Support\Facades\Route;
 use Rap2hpoutre\LaravelLogViewer\LogViewerController;
 
 // main controller
-Route::get('/', [MainController::class, 'index'])->name('main.index');
-Route::get('copy', [MainController::class, 'copy'])->name('main.copy');
-Route::get('image/{id}', [ImageController::class, 'view'])->name('image.view');
-Route::get('logs', [LogViewerController::class, 'index']);
+Route::get('/', function () {
+    return view('template/base');
+});
 
 // blog controller
-Route::resource('blog', BlogController::class);
+//Route::resource('curriculum', CurriculumController::class);
 //Route::get('blog', [BlogController::class, 'index'])->name('blog.index');
 //Route::post('blog', [BlogController::class, 'store'])->name('blog.store');
 //Route::get('blog/create', [BlogController::class, 'create'])->name('blog.create');
