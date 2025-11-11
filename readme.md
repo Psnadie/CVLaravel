@@ -386,29 +386,6 @@ php artisan tinker
 
 ---
 
-## Comandos Útiles
-
-```bash
-# Ver todas las rutas
-php artisan route:list
-
-# Limpiar caché
-php artisan cache:clear
-php artisan config:clear
-php artisan view:clear
-
-# Verificar migraciones
-php artisan migrate:status
-
-# Revertir última migración
-php artisan migrate:rollback
-
-# Refrescar base de datos (¡CUIDADO! Borra todos los datos)
-php artisan migrate:fresh
-```
-
----
-
 ## Seguridad
 
 ### Validaciones Implementadas
@@ -421,51 +398,6 @@ php artisan migrate:fresh
 - ✅ Tamaño máximo de imagen: 2MB
 - ✅ Protección CSRF en formularios
 - ✅ Sanitización de entradas
-
-### Recomendaciones Adicionales
-
-- Implementar autenticación para proteger las rutas
-- Añadir autorización por roles
-- Implementar rate limiting
-- Validar y sanitizar archivos subidos
-- Usar HTTPS en producción
-
----
-
-## Posibles Mejoras
-
-1. **Autenticación de usuarios**
-   - Laravel Breeze o Jetstream
-   - Cada usuario gestiona solo sus currículums
-
-2. **Búsqueda y filtros**
-   - Por nombre, correo, nota media
-   - Rango de fechas de nacimiento
-
-3. **Exportación**
-   - Generar PDF del currículum
-   - Exportar a Word
-
-4. **Soft Deletes**
-   - Recuperar currículums eliminados
-   - Papelera de reciclaje
-
-5. **Multiidioma**
-   - Soporte para varios idiomas
-   - Traducciones de la interfaz
-
-6. **API RESTful**
-   - Endpoints JSON
-   - Integración con aplicaciones móviles
-
-7. **Dashboard con estadísticas**
-   - Gráficos de notas medias
-   - Distribución por edades
-   - Habilidades más demandadas
-
-8. **Notificaciones**
-   - Email al crear currículum
-   - Recordatorios de actualización
 
 ---
 
@@ -528,19 +460,6 @@ sistema-curriculums/
 │           └── fotografias/
 └── .env
 ```
-
----
-
-## Conclusión
-
-Este sistema de gestión de currículums implementa todas las operaciones CRUD básicas siguiendo las mejores prácticas de Laravel. Es una aplicación funcional, escalable y lista para ser desplegada o ampliada según las necesidades del proyecto.
-
-## Créditos
-
-- **Framework:** Laravel 10.x
-- **Frontend:** Bootstrap 5.3.0
-- **Iconos:** Font Awesome 6.4.0
-- **Desarrollado para:** Proyecto educativo de CRUD con Laravel
 
 ---
 
