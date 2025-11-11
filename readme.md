@@ -1,5 +1,7 @@
 # Sistema de Gestión de Currículums - Laravel
 
+#Nicolas Esteban Lopez Novoa 2DAW 
+
 ## Descripción del Proyecto
 
 Aplicación web desarrollada en Laravel para la gestión completa de currículums vitae. Permite crear, visualizar, editar y eliminar currículums, incluyendo la subida de fotografías.
