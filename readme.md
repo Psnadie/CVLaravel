@@ -1,6 +1,6 @@
 # Sistema de Gestión de Currículums - Laravel
 
-#Nicolas Esteban Lopez Novoa 2DAW 
+# Nicolas Esteban Lopez Novoa 2DAW 
 
 ## Descripción del Proyecto
 
